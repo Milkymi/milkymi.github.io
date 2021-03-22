@@ -1,0 +1,307 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: Gilroy;
+	font-size: 18px;
+
+}
+img {
+	width: 100%;	
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+header {
+	padding: 40px;
+	background-color: #FAFAFA;
+
+}
+.wrap-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+    width: 1330px;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.logo {
+	width: 40px;
+}
+header nav {
+	width: 330px;
+}
+.gift-finder {
+	color: #F7941E;
+	height: 40px;
+	line-height: 40px;
+	width: 140px;
+	border: 1px solid #F7941E;
+box-sizing: border-box;
+border-radius: 5px;
+text-transform: uppercase;
+text-align: center;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.sec-one-info, .sec-one-work {
+	display: flex;
+	align-items: center;
+	width: 1440px;
+    max-width: 100%;
+     margin: auto;
+    flex-wrap: wrap;
+}
+.sec-one {
+	background-color: #F1F1F2;
+}
+.info-desc, .info-img {
+	width: 50%;
+}
+.info-img img {
+	display: block;
+}
+.info-desc h1 {
+	font-size: 55px;
+}
+.info-desc p {
+	font-size: 18px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.info-desc .content {
+	width: 430px;
+	max-width: 100%;
+	margin: auto;
+}
+.Find-gift-now {
+background: #F7941E;
+border-radius: 5px;
+text-align: center;
+text-transform: uppercase;
+color: #FFF;
+width: 200px;
+height: 60px;
+line-height: 60px;
+}
+.Learn-More {
+color: #F7941E;
+border: 1px solid #F7941E;
+border-radius: 5px;
+text-align: center;
+text-transform: uppercase;
+width: 200px;
+height: 60px;
+line-height: 60px;
+}
+.wrap {
+	margin: auto;
+	width: 1140px;
+	max-width: 100%;
+	padding: 90px 0;
+	flex-wrap: wrap;
+}
+.info-desc h3,
+.sec-two h3 {
+	font-size: 32px;
+	font-weight: 400;
+}
+.sec-two h3, .sec-two p, .blog .h3-wrap, .blog .p-wrap {
+	text-align: center;
+}
+ .cards-Occasions {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 60px;
+	flex-wrap: wrap;
+}
+.cards-item {
+	width: 270px;
+	background-color: #FAFAFA;
+	transition: .3s;
+}
+.cards-item :hover {
+	background-color: #fff;
+	box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, .05);
+
+}
+.cards-desc {
+	padding: 24px;
+}
+.See-More {
+	font-size: 14px;
+	margin-top: 74px;
+}
+.cta {
+	background-color: #F7941E;
+}
+.cta .wrap {
+padding: 80px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.cta-info h3, .cta-info p {
+	font-size: 32px;
+	margin: 0;
+}
+.cta-action {
+	width: 416px;
+	max-width: 100%;
+}
+.cta-buttons {
+	display: flex;
+	justify-content: space-between;
+}
+.primary, .secondary {
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 5px;
+
+}
+.primary {
+	background-color: #231F20;
+	color: #fff;
+}
+.secondary {
+	border: 1px solid #231F20;
+	color: #231F20;
+}
+.blog-card {
+	background-color: #231F20;
+	display: flex;
+	margin-top: 60px;
+	align-items: center;
+	width: 1140px;
+	max-width: 100%;
+	flex-wrap: wrap;
+	margin: auto;
+}
+.blog-card-info {
+	width: 500px;
+	margin: 0 80px;
+}
+.blog-card h3 {
+	font-size: 48px;
+	font-weight: 400;
+	color: #fff;
+}
+.blog-card .Read-More {
+	color: #fff;
+}
+.Mr {
+	font-size: 14px;
+	color: #fff;
+}
+.blog-subcards {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0;
+	width: 1140px;
+	max-width: 100%;
+	margin: auto;
+}
+.blog-subcard {
+width: 570px;
+padding: 50px;
+transition: .3s;
+}
+.blog-subcard :hover {
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.blog-subcard h4 {
+	font-size: 24px;
+}
+.Read-More {
+	font-size: 14px;
+}
+.blog-subcard p {
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+footer {
+	background-color: #FAFAFA;
+	padding: 115px 0 35px;
+}
+footer nav {
+	width: 600px;
+	max-width: 100%;
+	margin: auto;
+}
+.wrap-footer {
+	width: 1000px;
+	max-width: 100%;
+	margin: auto;
+
+}
+.nav-footer {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;	
+	flex-wrap: wrap;
+}
+.nav-footer li {
+	font-size: 14px;
+	padding: 0 25px;
+	font-weight: 700;
+}
+.logo-orange {
+	padding: 0 100px !important;
+}
+.logo-orange img {
+	width: auto;
+}
+
+.line {
+	width: 1000px;
+	max-width: 100%;
+	margin:  55px auto;
+	border: 1px solid #000;
+}
+footer .social {
+	width: 300px;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+}
+footer .copyright {
+	text-align: center;
+	font-size: 14px;
+	margin-top: 70px;
+}
+@media only screen and (max-width: 375px) {
+	.info-desc, .info-img {
+	width: 100%;
+	}	
+	.content, .wrap, .blog-subcards {
+		text-align: center;
+	}
+	.line {
+		width: 370px;
+	}
+	.cards-item {
+		width: 95%;
+		margin: auto;
+	}
+	.blog-card-img {
+		width: 100%;
+	}
+	.info-desc, .Learn-More, .Find-gift-now, .blog-subcards {
+		margin: auto;
+	}
+	.blog-subcard {
+		padding: 20px;
+	}
+}
